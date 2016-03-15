@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+}
+
+input {
+    width: 200px;
+    height: 1.3rem;
+}
+
+.add-button {
+    height: 30px;
+    width: 80px;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    padding-top: 10px;
+}
+
+button {
+    width:30px;
+    height: 24px;
+}
+
+.wrapper {
+    height: 24px;
+    width: 250px;
+}
+
+.likes {
+    display:block;
+    float:left;
+}
+
+label {
+    float: left;
+}
+.delete {
+    width: 50px;
+    display:block;
+    float: right;
+}
+
+div > div:after {
+    clear: both;
+    margin-top: 10px;
+}
